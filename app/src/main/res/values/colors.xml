@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="brand_primary">#1F4E79</color>
+    <color name="brand_on_primary">#FFFFFF</color>
+    <color name="status_paid">#2E7D32</color>
+    <color name="status_partial">#EF6C00</color>
+    <color name="status_unpaid">#C62828</color>
+    <color name="surface_card">#F5F7FA</color>
+    <color name="text_secondary">#5F6B7A</color>
+    <color name="banner_background">#FFF3E0</color>
+    <color name="banner_text">#8A4B00</color>
+    <color name="viewer_background">#000000</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

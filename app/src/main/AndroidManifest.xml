@@ -21,6 +21,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.SetupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.WhoAreYouActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MemberTabActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.RecordPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ReceiptViewerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.AddEditExpenseActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

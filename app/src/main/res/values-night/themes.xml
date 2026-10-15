@@ -1,7 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Base.Theme.CreditCardExpenseTracker" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorOnPrimary">@color/brand_on_primary</item>
+        <item name="colorSecondary">@color/brand_primary</item>
+        <item name="colorError">@color/status_unpaid</item>
     </style>
+    <style name="Theme.CreditCardExpenseTracker" parent="Base.Theme.CreditCardExpenseTracker" />
 </resources>

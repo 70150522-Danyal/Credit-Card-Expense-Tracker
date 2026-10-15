@@ -1,3 +1,136 @@
 <resources>
     <string name="app_name">Credit Card Expense Tracker</string>
+
+    <!-- Common -->
+    <string name="action_admin">Admin</string>
+    <string name="action_switch_person">Switch person</string>
+    <string name="action_lock_admin">Lock admin</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_remove">Remove</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_more_options">More options</string>
+    <string name="cd_receipt_image">Payment screenshot</string>
+    <string name="cd_app_icon">Card icon</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_unlock">Unlock</string>
+    <string name="btn_save">Save</string>
+    <string name="empty_state">Nothing here yet</string>
+    <string name="badge_admin">Admin</string>
+
+    <!-- Setup -->
+    <string name="setup_title">Set up your card</string>
+    <string name="setup_subtitle">You are the card holder (admin). Create a PIN to protect the admin area.</string>
+    <string name="hint_admin_name">Your name (card holder)</string>
+    <string name="hint_card_name">Card name, e.g. HBL Visa Gold</string>
+    <string name="hint_pin">Admin PIN (4 to 6 digits)</string>
+    <string name="hint_pin_confirm">Confirm PIN</string>
+    <string name="btn_setup_continue">Create and continue</string>
+
+    <!-- Who are you -->
+    <string name="who_title">Who are you?</string>
+    <string name="who_subtitle">Pick your name. Anyone can view any tab.</string>
+
+    <!-- PIN dialog -->
+    <string name="pin_dialog_title">Enter admin PIN</string>
+    <string name="pin_dialog_message">The admin PIN is needed to continue.</string>
+    <string name="hint_pin_entry">PIN</string>
+
+    <!-- Member tab -->
+    <string name="tab_expenses">Expenses</string>
+    <string name="tab_payments">Payments</string>
+    <string name="label_overdue">Overdue</string>
+    <string name="label_outstanding">Total outstanding</string>
+    <string name="label_credit">Credit</string>
+    <string name="btn_record_payment">Record payment</string>
+    <string name="btn_mark_paid">Mark paid</string>
+    <string name="btn_view_receipt">View receipt</string>
+    <string name="status_paid">Paid</string>
+    <string name="status_partial">Partial</string>
+    <string name="status_unpaid">Unpaid</string>
+    <string name="payment_pool">Pool payment</string>
+
+    <!-- Expense detail -->
+    <string name="label_date">Date</string>
+    <string name="label_due_date">Due date</string>
+    <string name="label_base">Base amount</string>
+    <string name="label_ftf">Foreign transaction fee</string>
+    <string name="label_fed">FED on fee</string>
+    <string name="label_adv_tax">Advance tax</string>
+    <string name="label_it_tax">IT sales tax</string>
+    <string name="label_total">Total (PKR)</string>
+    <string name="label_paid">Paid</string>
+    <string name="label_remaining">Remaining</string>
+
+    <!-- Record payment -->
+    <string name="record_payment_title">Record payment</string>
+    <string name="hint_payment_amount">Amount (PKR)</string>
+    <string name="hint_payment_date">Date</string>
+    <string name="hint_payment_note">Note (optional)</string>
+    <string name="btn_attach_receipt">Attach screenshot</string>
+    <string name="btn_remove_receipt">Remove</string>
+    <string name="btn_submit_payment">Save payment</string>
+    <string name="receipt_viewer_title">Payment screenshot</string>
+
+    <!-- Admin -->
+    <string name="admin_title">Admin</string>
+    <string name="tab_admin_expenses">Expenses</string>
+    <string name="tab_admin_members">Members</string>
+    <string name="tab_admin_settings">Settings</string>
+    <string name="hint_filter_member">Member</string>
+    <string name="filter_all_members">All members</string>
+    <string name="hint_search">Search description</string>
+    <string name="btn_add_expense">Add expense</string>
+    <string name="btn_add_member">Add member</string>
+    <string name="settings_section_card">Card</string>
+    <string name="settings_section_fees">International fees</string>
+    <string name="hint_settings_card_name">Card name</string>
+    <string name="hint_ftf_pct">Foreign transaction fee</string>
+    <string name="hint_fed_pct">FED on fee</string>
+    <string name="hint_adv_tax_pct">Advance tax</string>
+    <string name="hint_it_tax_pct">IT sales tax</string>
+    <string name="suffix_percent">%</string>
+    <string name="prefix_pkr">PKR </string>
+    <string name="btn_save_settings">Save settings</string>
+    <string name="btn_change_pin">Change PIN</string>
+    <string name="hint_member_name">Member name</string>
+    <string name="dialog_add_member_title">Add member</string>
+    <string name="dialog_rename_member_title">Rename member</string>
+    <string name="dialog_change_pin_title">Change PIN</string>
+    <string name="hint_current_pin">Current PIN</string>
+    <string name="hint_new_pin">New PIN</string>
+    <string name="hint_confirm_new_pin">Confirm new PIN</string>
+
+    <!-- Add / edit expense -->
+    <string name="add_expense_title">Add expense</string>
+    <string name="edit_expense_title">Edit expense</string>
+    <string name="hint_member">Member</string>
+    <string name="hint_expense_date">Date</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_currency">Currency</string>
+    <string name="hint_amount">Amount</string>
+    <string name="hint_fx_rate">FX rate (PKR per 1 unit)</string>
+    <string name="cb_it_service">IT / digital service (adds IT sales tax)</string>
+    <string name="preview_title">Preview</string>
+    <string name="label_preview_due">Due on</string>
+    <string name="btn_save_expense">Save expense</string>
+
+    <!-- Formatted (used from Java in Lab 2 and 3) -->
+    <string name="fmt_pkr">PKR %1$s</string>
+    <string name="fmt_due_by">Due by %1$s</string>
+    <string name="fmt_due_header">Due %1$s</string>
+    <string name="fmt_read_only">Viewing %1$s\'s tab (read-only)</string>
+    <string name="fmt_paying_as">Paying as %1$s</string>
+    <string name="fmt_foreign">%1$s %2$s @ %3$s</string>
+    <string name="fmt_payment_for">For: %1$s</string>
+
+    <string-array name="currencies">
+        <item>PKR</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>AED</item>
+        <item>SAR</item>
+    </string-array>
 </resources>
