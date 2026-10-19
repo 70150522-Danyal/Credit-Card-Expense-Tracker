@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#9CC3EB</color>
+    <color name="brand_on_primary">#0A2540</color>
+    <color name="status_paid">#81C784</color>
+    <color name="status_partial">#FFB74D</color>
+    <color name="status_unpaid">#EF9A9A</color>
+    <color name="surface_card">#1E2530</color>
+    <color name="text_secondary">#A9B4C2</color>
+    <color name="banner_background">#3E2A12</color>
+    <color name="banner_text">#FFCC80</color>
+    <color name="viewer_background">#000000</color>
+</resources>
